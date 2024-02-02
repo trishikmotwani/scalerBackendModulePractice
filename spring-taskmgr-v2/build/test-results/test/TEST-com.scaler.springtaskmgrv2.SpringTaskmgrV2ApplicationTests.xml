@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.scaler.springtaskmgrv2.SpringTaskmgrV2ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-13T16:42:35" hostname="INAIRLT541303" time="0.199">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.scaler.springtaskmgrv2.SpringTaskmgrV2ApplicationTests" time="0.199"/>
+  <system-out><![CDATA[22:12:30.597 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+22:12:30.606 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+22:12:30.635 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.scaler.springtaskmgrv2.SpringTaskmgrV2ApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+22:12:30.643 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.scaler.springtaskmgrv2.SpringTaskmgrV2ApplicationTests], using SpringBootContextLoader
+22:12:30.647 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.scaler.springtaskmgrv2.SpringTaskmgrV2ApplicationTests]: class path resource [com/scaler/springtaskmgrv2/SpringTaskmgrV2ApplicationTests-context.xml] does not exist
+22:12:30.647 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.scaler.springtaskmgrv2.SpringTaskmgrV2ApplicationTests]: class path resource [com/scaler/springtaskmgrv2/SpringTaskmgrV2ApplicationTestsContext.groovy] does not exist
+22:12:30.647 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.scaler.springtaskmgrv2.SpringTaskmgrV2ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:12:30.647 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.scaler.springtaskmgrv2.SpringTaskmgrV2ApplicationTests]: SpringTaskmgrV2ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:12:30.677 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.scaler.springtaskmgrv2.SpringTaskmgrV2ApplicationTests]
+22:12:30.725 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\intellij-workspace\scalerBackendModulePractice\spring-taskmgr-v2\build\classes\java\main\com\scaler\springtaskmgrv2\SpringTaskmgrV2Application.class]
+22:12:30.726 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.scaler.springtaskmgrv2.SpringTaskmgrV2Application for test class com.scaler.springtaskmgrv2.SpringTaskmgrV2ApplicationTests
+22:12:30.815 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.scaler.springtaskmgrv2.SpringTaskmgrV2ApplicationTests]: using defaults.
+22:12:30.815 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22:12:30.828 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@625e134e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@72bd06ca, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@89c10b7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5dbe30be, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4fe89c24, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55795845, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3d08f3f5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@119f1f2a, org.springframework.test.context.event.EventPublishingTestExecutionListener@1a1da881, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5b970f7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7fd4acee, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@165b8a71, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6175619b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2f058b8a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@756cf158]
+22:12:30.833 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@76a36b71 testClass = SpringTaskmgrV2ApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@184497d1 testClass = SpringTaskmgrV2ApplicationTests, locations = '{}', classes = '{class com.scaler.springtaskmgrv2.SpringTaskmgrV2Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@74f5ce22, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@525575, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@53dbe163, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6d1ef78d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@71529963, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@bd4dc25], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.8)
+
+2023-05-13 22:12:31.121  INFO 17740 --- [    Test worker] c.s.s.SpringTaskmgrV2ApplicationTests    : Starting SpringTaskmgrV2ApplicationTests using Java 17.0.6 on INAIRLT541303 with PID 17740 (started by P8271146 in D:\intellij-workspace\scalerBackendModulePractice\spring-taskmgr-v2)
+2023-05-13 22:12:31.123  INFO 17740 --- [    Test worker] c.s.s.SpringTaskmgrV2ApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-05-13 22:12:31.734  INFO 17740 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13 22:12:31.795  INFO 17740 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2023-05-13 22:12:32.351  INFO 17740 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13 22:12:32.402  INFO 17740 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-13 22:12:32.572  INFO 17740 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-13 22:12:32.683  INFO 17740 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13 22:12:32.902  INFO 17740 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13 22:12:32.918  INFO 17740 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: 
+    
+    drop table if exists notes CASCADE 
+Hibernate: 
+    
+    drop table if exists tasks CASCADE 
+Hibernate: 
+    
+    drop table if exists user_entity CASCADE 
+Hibernate: 
+    
+    drop sequence if exists hibernate_sequence
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+Hibernate: 
+    
+    create table notes (
+       id integer not null,
+        created_at timestamp,
+        updated_at timestamp,
+        body varchar(255),
+        task_id integer,
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table tasks (
+       id integer not null,
+        created_at timestamp,
+        updated_at timestamp,
+        completed boolean default false,
+        description varchar(500),
+        due_date timestamp,
+        title varchar(200) not null,
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table user_entity (
+       id integer not null,
+        created_at timestamp,
+        updated_at timestamp,
+        bio varchar(255),
+        email varchar(255),
+        image varchar(255),
+        password varchar(255),
+        username varchar(50) not null,
+        primary key (id)
+    )
+Hibernate: 
+    
+    alter table tasks 
+       add constraint UK_lbxbc3okttmi5ach9s94l296f unique (title)
+Hibernate: 
+    
+    alter table user_entity 
+       add constraint UK_2jsk4eakd0rmvybo409wgwxuw unique (username)
+Hibernate: 
+    
+    alter table notes 
+       add constraint FKodxv5og7mfpojw984eifvd9fw 
+       foreign key (task_id) 
+       references tasks
+2023-05-13 22:12:33.474  INFO 17740 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13 22:12:33.479  INFO 17740 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13 22:12:34.017  WARN 17740 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13 22:12:34.076  WARN 17740 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7932e9ca-2af3-41b4-8424-6671dbabc75a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-05-13 22:12:34.296  INFO 17740 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1977b0df, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a490518, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d2bc446, org.springframework.security.web.header.HeaderWriterFilter@464abed, org.springframework.security.web.authentication.logout.LogoutFilter@6ffa8126, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b984ba5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28dd8786, com.scaler.springtaskmgrv2.security.jwt.JwtAuthenticationFilter@7890fbf9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32ae11c9, org.springframework.security.web.session.SessionManagementFilter@13cae908, org.springframework.security.web.access.ExceptionTranslationFilter@77acc95a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1221d607]
+2023-05-13 22:12:34.794  INFO 17740 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./taskmanagerv1.db'
+2023-05-13 22:12:35.161  INFO 17740 --- [    Test worker] c.s.s.SpringTaskmgrV2ApplicationTests    : Started SpringTaskmgrV2ApplicationTests in 4.3 seconds (JVM running for 5.37)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
